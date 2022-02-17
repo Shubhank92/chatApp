@@ -1,0 +1,17 @@
+.items {
+  font-size: 35px;
+  width: 100%;
+  background-color: #cacaca;
+  display: flex;
+  flex-direction: row;
+}
+
+.item1 {
+  width: 35%;
+  height: 100%;
+}
+
+.item2 {
+  width: 65%;
+  height: 100%;
+}

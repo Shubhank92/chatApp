@@ -1,0 +1,18 @@
+.nav {
+  list-style-type: none;
+  display: flex;
+  width: 112px;
+  flex-direction: column;
+  height: 100vh;
+  background-color: navy;
+  color: white;
+}
+
+li {
+  padding: 10px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 30px;
+}
