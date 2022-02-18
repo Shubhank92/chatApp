@@ -16,7 +16,7 @@ const MainChat = ({selectedName, selectedUrl}) => {
                 <FaWindowClose className='icon2'/>
             </div>
         </article>
-        <h4>THIS IS WHERE THE CHAT GOES</h4>
+        <h4>Render the chat component here</h4>
     </div>
 }
 
