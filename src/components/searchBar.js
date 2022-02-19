@@ -1,6 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 
-const SearchBar = () => {
+const SearchBar = ({searchChange}) => {
     return (
     <div style={
         {
@@ -25,6 +25,7 @@ const SearchBar = () => {
                 fontSize: '1.2rem',
                 backgroundColor: 'aliceblue'
             }}
+            onChange={searchChange}
         />
     </div>
     )

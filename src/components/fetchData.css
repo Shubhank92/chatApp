@@ -39,6 +39,7 @@ ul::-webkit-scrollbar-thumb:hover {
   border: 1px solid #ccbebe;
   border-radius: 0.25rem;
 }
+
 .users li {
   display: flex;
   align-items: center;
@@ -49,16 +50,23 @@ ul::-webkit-scrollbar-thumb:hover {
   text-align: left;
   border: 1px solid #ccbebe;
 }
+
+.users li:hover {
+  cursor: pointer;
+}
+
 .users img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 1rem;
 }
+
 .users h4 {
   margin-bottom: 0.15rem;
   text-transform: capitalize;
 }
+
 .users a {
   color: var(--clr-grey-5);
   text-transform: capitalize;

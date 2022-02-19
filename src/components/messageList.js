@@ -12,10 +12,18 @@ const MainContainer = () => {
     const [selectedName, setSelectedName] = useState('');
     const [selectedUrl, setSelectedUrl] = useState('');
     const [selectedObj, setSelectedObj] = useState({});
+    const [searchBar, setSearchBar] = useState('');
 
-// figure out a way to update the obj
     const handleClick = (user) => {
         setSelectedObj(user);
+        return;
+    }
+    
+    // Complete the search change widget with the help of
+    // code from pokeapp
+    const onSearchChange = (e) => {
+        console.log(e.target.value)
+        setSearchBar(e.target.value)
         return;
     }
 
@@ -27,7 +35,7 @@ const MainContainer = () => {
     return (
         <div className='items'>
             <div className='item1'>
-                <SearchBar />
+                <SearchBar searchChange={onSearchChange}/>
                 <UseEffectFetchData handleClick={handleClick}/>
             </div>
             <div className='item2'>

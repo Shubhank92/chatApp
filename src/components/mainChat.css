@@ -38,3 +38,18 @@
   font-size: 35px;
   padding-right: 20px;
 }
+
+.copyMainChatBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  background-color: aliceblue;
+  height: 80%;
+}
+
+.icon3 {
+  font-size: 5rem;
+  margin: 2rem;
+}
