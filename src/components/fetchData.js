@@ -3,10 +3,8 @@ import React, { useState, useEffect } from 'react';
 //CSS
 import './fetchData.css'
 
-
+// USERS URL
 const url = 'https://api.github.com/users';
-
-// second argument
 
 const UseEffectFetchData = ({handleClick, searchVal}) => {
   
