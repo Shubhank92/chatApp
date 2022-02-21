@@ -53,3 +53,8 @@
   font-size: 5rem;
   margin: 2rem;
 }
+
+.icon1,
+.icon2:hover {
+  cursor: pointer;
+}

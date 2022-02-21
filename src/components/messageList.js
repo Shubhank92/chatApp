@@ -24,6 +24,10 @@ const MainContainer = () => {
         return;
     }
 
+    const handleClose = () => {
+        setSelectedName('')
+    }
+
     useEffect(() => {
         setSelectedName(selectedObj.login);
         setSelectedUrl(selectedObj.avatar_url);
@@ -36,7 +40,7 @@ const MainContainer = () => {
                 <UseEffectFetchData handleClick={handleClick} searchVal={searchVal}/>
             </div>
             <div className='item2'>
-                <MainChat selectedName={selectedName} selectedUrl={selectedUrl}/>
+                <MainChat selectedName={selectedName} selectedUrl={selectedUrl} handleClose={handleClose}/>
             </div>
         </div>
     )

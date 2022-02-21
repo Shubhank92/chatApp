@@ -13,7 +13,8 @@ const SearchBar = ({searchChange}) => {
         }}>        
         <FaSearch style={{
             fontSize: '1rem',
-            color: '#ccbebe'
+            color: '#ccbebe',
+            marginLeft: '5px'
         }}/>
         <input 
             type="text" 
@@ -23,10 +24,12 @@ const SearchBar = ({searchChange}) => {
                 border: 'none',
                 margin: '1rem',
                 fontSize: '1.2rem',
-                backgroundColor: 'aliceblue'
+                backgroundColor: 'aliceblue',
+                width: '80%',
+                height: '100%'
             }}
             onChange={searchChange}
-        />
+        ></input>
     </div>
     )
 }
