@@ -14,8 +14,8 @@ const MainContainer = () => {
     const [selectedObj, setSelectedObj] = useState({});
     const [searchVal, setSearchVal] = useState('');
 
-    const handleClick = (user) => {
-        setSelectedObj(user);
+    const handleClick = (userObj) => {
+        setSelectedObj(userObj);
         return;
     }
     
@@ -25,7 +25,8 @@ const MainContainer = () => {
     }
 
     const handleClose = () => {
-        setSelectedName('')
+        setSelectedName('');
+        setSelectedObj({})
     }
 
     useEffect(() => {
