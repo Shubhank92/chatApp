@@ -38,6 +38,7 @@ const MainContainer = () => {
         <div className='items'>
             <div className='item1'>
                 <SearchBar searchChange={onSearchChange} />
+                {/* use badge compomnent in bootstrap for that online ting*/}
                 <UseEffectFetchData handleClick={handleClick} searchVal={searchVal}/>
             </div>
             <div className='item2'>
