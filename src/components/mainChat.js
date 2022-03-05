@@ -18,8 +18,8 @@ const MainChat = ({selectedName, selectedUrl, handleClose}) => {
                 <img src={selectedUrl} alt={selectedName} />
                 <h3>{selectedName}</h3>
                 <div>
-                {/* FIX THIS ASAP */}
-                    <Dropdown>
+                {/* FIX THIS ASAP, use toast */}
+                    <Dropdown> 
                         <Dropdown.Toggle variant="primary" id="dropdown-basic">
                             {/* <FaEllipsisV className='icon1' /> */}
                             drop
